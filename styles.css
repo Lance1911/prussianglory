@@ -1,0 +1,111 @@
+#Banner {
+    border: 1px solid #E3967A;
+    width:100%;
+    height:40%;
+    position:fixed;
+    top:0;
+    left:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    background-color:#E3967A;
+    color:#422E16;
+    /*coutersey of Ulises Fernandez, JMU' 2023, BS Computer Science, send potential offers fernan.ulises@gmail.com*/
+    background: linear-gradient(#E3967A, #DBAEA9);
+}
+
+html {
+    background:#EACDC5;
+}
+
+#blurb {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%
+}
+
+
+  .child1 {
+    display: inline-block;
+    border: 3px solid #422E16;
+    background: linear-gradient(#E3967A, #EACDC5);
+    vertical-align: middle;
+    text-align:center;
+    font-size:75%;
+    bottom:10%;
+    position: absolute;
+    width: 12%;
+    height: 40%;
+    left: 3%;
+  }
+  .child2 {
+    display: inline-block;
+    border: 3px solid #422E16;
+    background: linear-gradient(#E3967A, #EACDC5);
+    text-align:center;
+    font-size:75%;
+
+    vertical-align: middle;
+    position: absolute;
+    width: 12%;
+    height: 40%;
+    bottom: 10%;
+    left: 21%
+  }
+  .child3 {
+    display: inline-block;
+    border: 3px solid #422E16;
+    background: linear-gradient(#E3967A, #EACDC5);
+    text-align:center;
+    font-size:75%;
+
+    vertical-align: middle;
+    bottom:10%;
+    position: absolute;
+    width: 12%;
+    height: 40%;
+    left: 37%;
+  }
+  .child4 {
+    display: inline-block;
+    border: 3px solid #422E16;
+    background: linear-gradient(#E3967A, #EACDC5);
+    text-align:center;
+    font-size:75%;
+
+    vertical-align: middle;
+    position: absolute;
+    bottom: 10%;
+    height: 40%;
+    width: 12%;
+    left: 53%;
+  }
+
+  .child5 {
+    display: inline-block;
+    border: 3px solid #422E16;
+    background: linear-gradient(#E3967A, #EACDC5);
+    text-align:center;
+    font-size:75%;
+
+    vertical-align: middle;
+    bottom:10%;
+    position: absolute;
+    width: 12%;
+    height: 40%;
+    right: 18%;
+  }
+  .child6 {
+    display: inline-block;
+    border: 3px solid #422E16;
+    background: linear-gradient(#E3967A, #EACDC5);
+    text-align:center;
+    font-size:75%;
+
+    vertical-align: middle;
+    position: absolute;
+    bottom: 10%;
+    width: 12%;
+    height: 40%;
+    right: 3%;
+  }
+  
