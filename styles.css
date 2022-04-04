@@ -1,8 +1,8 @@
 #Banner {
     border: 1px solid #E3967A;
     width:100%;
-    height:40%;
-    position:fixed;
+    height:45%;
+    position:absolute;
     top:0;
     left:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,17 +17,48 @@ html {
     background:#EACDC5;
 }
 
+#north, #south{
+    border: 1px double #333;
+    width: 25%;
+    color: #333;
+    text-align: center;
+    left: 25%
+}
+
 #blurb {
     margin-right: 10%;
     margin-left: 10%;
-    margin-bottom: 10%
+    font-family:Garamond, Georgia, serif;
+
 }
 
+#auth {
+  color:#422E16; 
+  left: 25%;
+}
+#authorTitle {
+  font-family:Garamond, Georgia, serif;
+  color:#422E16; 
+  left: 25%;
+}
 
+#ack {
+  top: 100%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-family: Garamond, Georgia, serif;
+  color:#422E16;
+}
+#authorContent {
+  color:#422E16; 
+
+}
   .child1 {
     display: inline-block;
     border: 3px solid #422E16;
     background: linear-gradient(#E3967A, #EACDC5);
+    font-family:Garamond, Georgia, serif;
     vertical-align: middle;
     text-align:center;
     font-size:75%;
@@ -35,12 +66,14 @@ html {
     position: absolute;
     width: 12%;
     height: 40%;
-    left: 3%;
+    left: 4%;
   }
   .child2 {
     display: inline-block;
     border: 3px solid #422E16;
     background: linear-gradient(#E3967A, #EACDC5);
+    font-family:Garamond, Georgia, serif;
+
     text-align:center;
     font-size:75%;
 
@@ -49,12 +82,14 @@ html {
     width: 12%;
     height: 40%;
     bottom: 10%;
-    left: 21%
+    left: 20%
   }
   .child3 {
     display: inline-block;
     border: 3px solid #422E16;
     background: linear-gradient(#E3967A, #EACDC5);
+    font-family:Garamond, Georgia, serif;
+
     text-align:center;
     font-size:75%;
 
@@ -63,12 +98,14 @@ html {
     position: absolute;
     width: 12%;
     height: 40%;
-    left: 37%;
+    left: 36%;
   }
   .child4 {
     display: inline-block;
     border: 3px solid #422E16;
     background: linear-gradient(#E3967A, #EACDC5);
+    font-family:Garamond, Georgia, serif;
+
     text-align:center;
     font-size:75%;
 
@@ -77,13 +114,15 @@ html {
     bottom: 10%;
     height: 40%;
     width: 12%;
-    left: 53%;
+    left: 52%;
   }
 
   .child5 {
     display: inline-block;
     border: 3px solid #422E16;
     background: linear-gradient(#E3967A, #EACDC5);
+    font-family:Garamond, Georgia, serif;
+
     text-align:center;
     font-size:75%;
 
@@ -92,12 +131,14 @@ html {
     position: absolute;
     width: 12%;
     height: 40%;
-    right: 18%;
+    left: 68%;
   }
   .child6 {
     display: inline-block;
     border: 3px solid #422E16;
     background: linear-gradient(#E3967A, #EACDC5);
+    font-family:Garamond, Georgia, serif;
+
     text-align:center;
     font-size:75%;
 
@@ -106,6 +147,6 @@ html {
     bottom: 10%;
     width: 12%;
     height: 40%;
-    right: 3%;
+    left: 84%;
   }
   
