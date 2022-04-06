@@ -12,10 +12,13 @@
     /*coutersey of Ulises Fernandez, JMU' 2023, BS Computer Science, send potential offers fernan.ulises@gmail.com*/
     /*(background: linear-gradient(#E3967A, #DBAEA9);*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("13561391_red-hat.jpg");
-}
+  
+  }
 
 html {
     background:#EACDC5;
+    overflow-x: hidden;
+
 }
 
 #north, #south{
@@ -29,7 +32,7 @@ html {
 #blurb {
     margin-right: 10%;
     margin-left: 10%;
-    font-family: EB Garamond, Georgia, serif;
+    font-family: "Segoe UI Light", Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -52,9 +55,18 @@ html {
   color:#422E16;
 }
 
+#references {
+  top: 150%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-family: EB Garamond, Georgia, serif;
+  color:#422E16;
+}
+
 #authorContent {
   color:#ffffff; 
-  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI Light", Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -66,12 +78,13 @@ html {
     font-family: EB Garamond, Georgia, serif;
     vertical-align: middle;
     text-align:center;
-    font-size:75%;
+    font-size:70%;
     bottom:5%;
     position: absolute;
     width: 12%;
     height: 40%;
     left: 4%;
+    
   }
   .child2 {
     display: inline-block;
@@ -80,7 +93,7 @@ html {
     font-family: EB Garamond, Georgia, serif;
 
     text-align:center;
-    font-size:75%;
+    font-size:70%;
 
     vertical-align: middle;
     position: absolute;
@@ -96,7 +109,7 @@ html {
     font-family: EB Garamond, Georgia, serif;
 
     text-align:center;
-    font-size:75%;
+    font-size:70%;
 
     vertical-align: middle;
     bottom:5%;
@@ -105,6 +118,7 @@ html {
     height: 40%;
     left: 36%;
   }
+  
   .child4 {
     display: inline-block;
     border: 3px solid #655035;
@@ -112,7 +126,7 @@ html {
     font-family: EB Garamond, Georgia, serif;
 
     text-align:center;
-    font-size:75%;
+    font-size:70%;
 
     vertical-align: middle;
     position: absolute;
@@ -129,7 +143,7 @@ html {
     font-family: EB Garamond, Georgia, serif;
 
     text-align:center;
-    font-size:75%;
+    font-size:70%;
 
     vertical-align: middle;
     bottom:5%;
@@ -145,7 +159,7 @@ html {
     font-family: EB Garamond, Georgia, serif;
 
     text-align:center;
-    font-size:75%;
+    font-size:70%;
 
     vertical-align: middle;
     position: absolute;
@@ -153,6 +167,10 @@ html {
     width: 12%;
     height: 40%;
     left: 84%;
+  }
+
+  .child1:hover {
+    background-color: yellow;
   }
 
   @media only screen and (max-height: 450px) {
@@ -167,6 +185,11 @@ html {
 
     #ack {
       top: 150%;
+      width: 100%;
+    }
+
+    #references {
+      top: 250%;
       width: 100%;
     }
   }
@@ -223,6 +246,11 @@ html {
 
     #ack {
       top: 190%;
+      width: 100%;
+    }
+
+    #references {
+      top: 230%;
       width: 100%;
     }
   }
