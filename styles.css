@@ -1,3 +1,4 @@
+/*Top banner */
 #Banner {
     border: 1px solid #E3967A;
     width:100%;
@@ -9,6 +10,7 @@
     text-align:center;
     background-color:#E3967A;
     color:#ffffff;
+    background-size: cover;
     /*coutersey of Ulises Fernandez, JMU' 2023, BS Computer Science, send potential offers fernan.ulises@gmail.com*/
     /*(background: linear-gradient(#E3967A, #DBAEA9);*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("13561391_red-hat.jpg");
@@ -21,6 +23,7 @@ html {
 
 }
 
+/* Acknowledgements and References underline */
 #north, #south{
     border: 1px double #333;
     width: 25%;
@@ -29,6 +32,7 @@ html {
     left: 25%
 }
 
+/* Banner quote margins and font */
 #blurb {
     margin-right: 10%;
     margin-left: 10%;
@@ -36,16 +40,15 @@ html {
 
 }
 
-#auth {
-  color:#ffffff; 
-  left: 25%;
-}
+/* Banner author information */
+
 #authorTitle {
   font-family: EB Garamond, Georgia, serif;
   color:#ffffff; 
   left: 25%;
 }
 
+/* Acknowledgements */
 #ack {
   top: 100%;
   width: 100%;
@@ -70,109 +73,42 @@ html {
 
 }
 
-
-.child1 {
-    display: inline-block;
-    border: 3px solid #655035;
-    background: linear-gradient(#E3967A, #EACDC5);
-    font-family: EB Garamond, Georgia, serif;
-    vertical-align: middle;
-    text-align:center;
-    font-size:70%;
-    bottom:5%;
-    position: absolute;
-    width: 12%;
-    height: 40%;
-    left: 4%;
-    
-  }
+/* sub-category boxes */
+.child1, .child2, .child3, .child4, .child5, .child6 {
+  display: inline-block;
+  border: 3px solid #655035;
+  background: linear-gradient(#E3967A, #EACDC5);
+  font-family: "Segoe UI Light", Tahoma, Geneva, Verdana, sans-serif;
+  vertical-align: middle;
+  text-align:center;
+  font-size:70%;
+  bottom:5%;
+  position: absolute;
+  width: 12%;
+  height: 40%;
+}
+.child1 { 
+  left: 4%;
+}
   .child2 {
-    display: inline-block;
-    border: 3px solid #655035;
-    background: linear-gradient(#E3967A, #EACDC5);
-    font-family: EB Garamond, Georgia, serif;
-
-    text-align:center;
-    font-size:70%;
-
-    vertical-align: middle;
-    position: absolute;
-    width: 12%;
-    height: 40%;
-    bottom: 5%;
     left: 20%
   }
   .child3 {
-    display: inline-block;
-    border: 3px solid #655035;
-    background: linear-gradient(#E3967A, #EACDC5);
-    font-family: EB Garamond, Georgia, serif;
-
-    text-align:center;
-    font-size:70%;
-
-    vertical-align: middle;
-    bottom:5%;
-    position: absolute;
-    width: 12%;
-    height: 40%;
     left: 36%;
   }
   
   .child4 {
-    display: inline-block;
-    border: 3px solid #655035;
-    background: linear-gradient(#E3967A, #EACDC5);
-    font-family: EB Garamond, Georgia, serif;
-
-    text-align:center;
-    font-size:70%;
-
-    vertical-align: middle;
-    position: absolute;
-    bottom: 5%;
-    height: 40%;
-    width: 12%;
     left: 52%;
   }
 
   .child5 {
-    display: inline-block;
-    border: 3px solid #655035;
-    background: linear-gradient(#E3967A, #EACDC5);
-    font-family: EB Garamond, Georgia, serif;
-
-    text-align:center;
-    font-size:70%;
-
-    vertical-align: middle;
-    bottom:5%;
-    position: absolute;
-    width: 12%;
-    height: 40%;
     left: 68%;
   }
   .child6 {
-    display: inline-block;
-    border: 3px solid #655035;
-    background: linear-gradient(#E3967A, #EACDC5);
-    font-family: EB Garamond, Georgia, serif;
-
-    text-align:center;
-    font-size:70%;
-
-    vertical-align: middle;
-    position: absolute;
-    bottom: 5%;
-    width: 12%;
-    height: 40%;
     left: 84%;
   }
 
-  .child1:hover {
-    background-color: yellow;
-  }
-
+  /* responsivity for landscape phone */
   @media only screen and (max-height: 450px) {
     #Banner {
       height: 80%;
@@ -194,50 +130,44 @@ html {
     }
   }
 
-  
+  /* responsivity for portrait phone */
   @media only screen and (max-width: 450px) {
 
     #Banner {
       height: 55%;
     }
-    .child1 {
+
+    .child1, .child2, .child3, .child4, .child5, .child6 {
       width: 70%;
       height: 10%;
+    }
+
+    .child1 {
       left: 15%;
       top: 70%;
     }
     .child2 {
-      width: 70%;
-      height: 10%;
       left: 15%;
       top: 90%; 
     }
     .child3 {
       bottom:10%;
-      width: 70%;
-      height: 10%;
       left: 15%;
       top: 110%;
     }
     .child4 {
       bottom: 10%;
-      height: 10%;
-      width: 70%;
       left: 15%;
       top: 130%;
     }
   
     .child5 {
       bottom:10%;
-      width: 70%;
-      height: 10%;
       left: 15%;
       top: 150%;
     }
     .child6 {
       bottom: 10%;
-      width: 70%;
-      height: 10%;
       left: 15%;
       top: 170%;
 
