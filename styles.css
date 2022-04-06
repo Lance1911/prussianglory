@@ -5,12 +5,13 @@
     position:absolute;
     top:0;
     left:0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI Light", Tahoma, Geneva, Verdana, sans-serif;
     text-align:center;
     background-color:#E3967A;
-    color:#422E16;
+    color:#ffffff;
     /*coutersey of Ulises Fernandez, JMU' 2023, BS Computer Science, send potential offers fernan.ulises@gmail.com*/
-    background: linear-gradient(#E3967A, #DBAEA9);
+    /*(background: linear-gradient(#E3967A, #DBAEA9);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("13561391_red-hat.jpg");
 }
 
 html {
@@ -28,17 +29,17 @@ html {
 #blurb {
     margin-right: 10%;
     margin-left: 10%;
-    font-family:Garamond, Georgia, serif;
+    font-family: EB Garamond, Georgia, serif;
 
 }
 
 #auth {
-  color:#422E16; 
+  color:#ffffff; 
   left: 25%;
 }
 #authorTitle {
-  font-family:Garamond, Georgia, serif;
-  color:#422E16; 
+  font-family: EB Garamond, Georgia, serif;
+  color:#ffffff; 
   left: 25%;
 }
 
@@ -47,22 +48,26 @@ html {
   width: 100%;
   position: absolute;
   text-align: center;
-  font-family: Garamond, Georgia, serif;
+  font-family: EB Garamond, Georgia, serif;
   color:#422E16;
 }
+
 #authorContent {
-  color:#422E16; 
+  color:#ffffff; 
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 
 }
-  .child1 {
+
+
+.child1 {
     display: inline-block;
-    border: 3px solid #422E16;
+    border: 3px solid #655035;
     background: linear-gradient(#E3967A, #EACDC5);
-    font-family:Garamond, Georgia, serif;
+    font-family: EB Garamond, Georgia, serif;
     vertical-align: middle;
     text-align:center;
     font-size:75%;
-    bottom:10%;
+    bottom:5%;
     position: absolute;
     width: 12%;
     height: 40%;
@@ -70,9 +75,9 @@ html {
   }
   .child2 {
     display: inline-block;
-    border: 3px solid #422E16;
+    border: 3px solid #655035;
     background: linear-gradient(#E3967A, #EACDC5);
-    font-family:Garamond, Georgia, serif;
+    font-family: EB Garamond, Georgia, serif;
 
     text-align:center;
     font-size:75%;
@@ -81,20 +86,20 @@ html {
     position: absolute;
     width: 12%;
     height: 40%;
-    bottom: 10%;
+    bottom: 5%;
     left: 20%
   }
   .child3 {
     display: inline-block;
-    border: 3px solid #422E16;
+    border: 3px solid #655035;
     background: linear-gradient(#E3967A, #EACDC5);
-    font-family:Garamond, Georgia, serif;
+    font-family: EB Garamond, Georgia, serif;
 
     text-align:center;
     font-size:75%;
 
     vertical-align: middle;
-    bottom:10%;
+    bottom:5%;
     position: absolute;
     width: 12%;
     height: 40%;
@@ -102,16 +107,16 @@ html {
   }
   .child4 {
     display: inline-block;
-    border: 3px solid #422E16;
+    border: 3px solid #655035;
     background: linear-gradient(#E3967A, #EACDC5);
-    font-family:Garamond, Georgia, serif;
+    font-family: EB Garamond, Georgia, serif;
 
     text-align:center;
     font-size:75%;
 
     vertical-align: middle;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     height: 40%;
     width: 12%;
     left: 52%;
@@ -119,15 +124,15 @@ html {
 
   .child5 {
     display: inline-block;
-    border: 3px solid #422E16;
+    border: 3px solid #655035;
     background: linear-gradient(#E3967A, #EACDC5);
-    font-family:Garamond, Georgia, serif;
+    font-family: EB Garamond, Georgia, serif;
 
     text-align:center;
     font-size:75%;
 
     vertical-align: middle;
-    bottom:10%;
+    bottom:5%;
     position: absolute;
     width: 12%;
     height: 40%;
@@ -135,18 +140,89 @@ html {
   }
   .child6 {
     display: inline-block;
-    border: 3px solid #422E16;
+    border: 3px solid #655035;
     background: linear-gradient(#E3967A, #EACDC5);
-    font-family:Garamond, Georgia, serif;
+    font-family: EB Garamond, Georgia, serif;
 
     text-align:center;
     font-size:75%;
 
     vertical-align: middle;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     width: 12%;
     height: 40%;
     left: 84%;
   }
+
+  @media only screen and (max-height: 450px) {
+    #Banner {
+      height: 80%;
+    }
+
+    .child1, .child2, .child3, .child4, .child5, .child6 {
+      top: 85%;
+      font-size: 45%;
+    }
+
+    #ack {
+      top: 150%;
+      width: 100%;
+    }
+  }
+
   
+  @media only screen and (max-width: 450px) {
+
+    #Banner {
+      height: 55%;
+    }
+    .child1 {
+      width: 70%;
+      height: 10%;
+      left: 15%;
+      top: 70%;
+    }
+    .child2 {
+      width: 70%;
+      height: 10%;
+      left: 15%;
+      top: 90%; 
+    }
+    .child3 {
+      bottom:10%;
+      width: 70%;
+      height: 10%;
+      left: 15%;
+      top: 110%;
+    }
+    .child4 {
+      bottom: 10%;
+      height: 10%;
+      width: 70%;
+      left: 15%;
+      top: 130%;
+    }
+  
+    .child5 {
+      bottom:10%;
+      width: 70%;
+      height: 10%;
+      left: 15%;
+      top: 150%;
+    }
+    .child6 {
+      bottom: 10%;
+      width: 70%;
+      height: 10%;
+      left: 15%;
+      top: 170%;
+
+      
+    }
+
+    #ack {
+      top: 190%;
+      width: 100%;
+    }
+  }
