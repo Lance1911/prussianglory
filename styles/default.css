@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif !important;
+    line-height: 1.4;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #E3967A;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: #DE6E46;
+    border-radius: 100px;
+}
