@@ -1,0 +1,48 @@
+.nav {
+    background: #E3967A !important;
+    box-shadow: none;
+    margin: 0 !important;
+    margin-bottom: 2%;
+    padding: 10px;
+    width: 100% !important;
+}
+
+.content {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.header-title {
+    padding: 0px;
+    margin: 0px !important;
+    font-size: 30px;
+    color: #1A2F26 !important;
+}
+
+.header-name {
+    padding-top: 10px;
+    margin: 0px !important;
+    font-size: 25px;
+    color: #422E16 !important;
+}
+
+.icon {
+    display: inline-block;
+    height: 4vw;
+}
+
+i {
+    margin: auto;
+    color: #1A2F26;
+    font-size: 4vw !important;
+}
+
+i:hover {
+    color: #422E16;
+}
+
+@media (max-width: 425px) {
+    .narrow {
+        display: block
+    }
+}
