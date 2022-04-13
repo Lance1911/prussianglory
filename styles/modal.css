@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-[type="checkbox"]:checked,
-[type="checkbox"]:not(:checked) {
+.checkbox:checked,
+.checkbox:not(:checked) {
     position: absolute;
     left: -9999px;
 }
