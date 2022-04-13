@@ -242,3 +242,27 @@
         left: calc(100vw - 90px);
     }
 }
+
+@media (max-height: 300px) {
+    .menu-wrap .menu>div>div>ul>li {
+        padding: .25rem;
+    }
+
+    .list a {
+        font-size: 1.5vw;
+    }
+
+    .nav {
+        height: 30vh;
+    }
+
+    .menu-wrap .toggler {
+        top: -20vh;
+        left: calc(100vw - 10vw);
+    }
+
+    .menu-wrap .hamburger {
+        top: calc(-20vh - 60px);
+        left: calc(100vw - 11vw);
+    }
+}
